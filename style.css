@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f9f4;
+  color: #333;
+}
+
+header {
+  background-color: #2e7d32;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: url('https://images.unsplash.com/photo-1523978591478-c753949ff840') center/cover no-repeat;
+  color: white;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #1b5e20;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background: #43a047;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #2e7d32;
+  color: white;
+}
+
+.login-page {
+  background-color: #e8f5e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  width: 300px;
+}
+
+.login-container input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
